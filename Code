@@ -1,0 +1,20 @@
+print('Welcome to the calculator module')
+print("Please follow instructions below")
+print("Note, does not support percentage or anything other than integers")
+
+a=float(input("First number: "))
+b=float(input("Second number: "))
+
+symbol=input("Choose your symbol, please choose 1 out of the 4 basic math symbols: +, -, *, /")
+
+if symbol=="+":
+  print(a+b)
+
+if symbol=="-":
+  print(a-b)
+
+if symbol=="*":
+  print(a*b)
+
+if symbol=="/":
+  print(a/b)
